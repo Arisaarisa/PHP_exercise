@@ -8,7 +8,7 @@ define('PASSWORD', '9999');
 // DBに接続
 try {
   $dbh = new PDO(DSN, USER, PASSWORD);
-  echo '接続に成功しました！' . '<br>';
+  echo '本日のご紹介ペット！' . '<br>';
 } catch (PDOException $e) {
   // 接続がうまくいかない場合こちらの処理がなされる
   echo $e->getMessage();
